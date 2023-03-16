@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build:core": "vue-cli-service build",
+    "build:theme": "TYPE=lib vue-cli-service build --target lib --name theme-default/index --no-clean lib/theme-default/index.tsx",
+    "build": "rimraf dist && yarn build:theme",
     "test:unit": "vue-cli-service test:unit --coverage",
     "lint": "vue-cli-service lint"
   },
@@ -38,6 +40,7 @@
     "lint-staged": "^11.1.2",
     "monaco-editor": "^0.36.1",
     "prettier": "^2.4.1",
+    "rimraf": "^4.4.0",
     "ts-jest": "^27.0.4",
     "typescript": "~4.5.5"
   },
