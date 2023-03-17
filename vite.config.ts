@@ -35,4 +35,13 @@ export default defineConfig({
       formats: ["esm", "umd", "iife"],
     },
   },
+
+  test: {
+    globals: true,
+    environment: "happy-dom",
+    transformMode: {
+      // 支持tsx组件，很关键
+      web: [/.[tj]sx$/]
+    }
+  }
 })

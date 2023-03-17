@@ -1,5 +1,4 @@
 import { defineComponent, PropType, toRefs } from "vue";
-import "uno.css";
 
 export type ISize = "small" | "medium" | "large";
 export type IColor =
