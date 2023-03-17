@@ -1,10 +1,10 @@
 // import { createApp } from "vue";
-import { createApp } from 'vue/dist/vue.esm-bundler'
+import { createApp } from "vue/dist/vue.esm-browser";
 import VueMui from "./entry";
 
-import SButton from './button'
-import SFCButton from './SFCButton.vue'
-import JSXButton from './JSXButton'
+// import SButton from './button'
+// import SFCButton from './SFCButton.vue'
+// import JSXButton from './JSXButton'
 
 
 createApp({
