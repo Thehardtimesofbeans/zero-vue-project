@@ -28,11 +28,11 @@
     "vite": "^3.0.7",
     "vitepress": "1.0.0-alpha.60",
     "vitepress-theme-demoblock": "1.4.2",
-    "vitest": "0.21.1"
+    "vitest": "0.21.1",
+    "@commitlint/cli": "17.0.2",
+    "@commitlint/config-conventional": "17.0.2"
   },
   "dependencies": {
-    "@commitlint/cli": "17.0.2",
-    "@commitlint/config-conventional": "17.0.2",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "@vue/eslint-config-prettier": "^7.1.0",
