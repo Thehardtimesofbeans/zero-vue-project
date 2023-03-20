@@ -18,7 +18,6 @@ specifiers:
   eslint-plugin-vue: ^9.9.0
   happy-dom: 6.0.4
   husky: ^8.0.3
-  plugin-vue^3.0.4: link:@vitejs/plugin-vue^3.0.4
   prettier: ^2.8.4
   terser: 5.4.0
   typescript: ^5.0.2
@@ -39,7 +38,6 @@ dependencies:
   eslint-plugin-json: registry.npmmirror.com/eslint-plugin-json/3.1.0
   eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_a7sjvsbcgg5dveitgz3whbbski
   eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue/9.9.0_eslint@8.36.0
-  plugin-vue^3.0.4: link:@vitejs/plugin-vue^3.0.4
   prettier: registry.npmmirror.com/prettier/2.8.4
   typescript: registry.npmmirror.com/typescript/5.0.2
   unocss: registry.npmmirror.com/unocss/0.45.6_vite@3.0.7
