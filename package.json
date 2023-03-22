@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "node ./scripts/preinstall.js",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -11,5 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "husky": "^7.0.4"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "vite": "^3.2.5"
   }
 }
