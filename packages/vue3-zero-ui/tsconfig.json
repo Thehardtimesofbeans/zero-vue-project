@@ -5,12 +5,12 @@
         "jsx": "preserve",
     },
     "include": [
-        "./**/*.*",
-        "./shims-vue.d.ts", "docs/.vitepress/config.ts",
+        "src/**/*.*",
+        "src/shims-vue.d.ts",
     ],
     "exclude": [
         "node_modules"
     ],
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": "true"
+    "allowSyntheticDefaultImports": "true" // 允许从没有默认导出的模块引入
 }

@@ -1,8 +1,8 @@
-name: Publish To Npm
+name: Publish vue3-zero-ui To Npm
 
 on:
   push:
-    branches: [publish]
+    branches: [publish-vue3-zero-ui]
 
 jobs:
   publish:
@@ -20,11 +20,13 @@ jobs:
       - name: Install modules
         run: pnpm install
       - name: Build
-        run: npm run build
+        run: cd packages/vue3-zero-ui && npm run build
       - name: "Publish to the npm registry"
         uses: primer/publish@3.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.NPM_AUTO_TOKEN_VUE3MOBILECOMPONENT }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTO_TOKEN_VUE3MOBILECOMPONENT }} # 跟前面步骤中的 NPM_AUTH_TOKEN 保持一致
         with:
-          default_branch: "publish"
+          default_branch: "publish-vue3-zero-ui"
+          dir: "packages/publish-vue3-zero-ui/dist"
+          npm_args: "--unsafe-perm --allow-same-version"

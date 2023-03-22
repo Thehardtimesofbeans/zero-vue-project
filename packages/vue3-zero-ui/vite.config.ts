@@ -38,6 +38,7 @@ export default defineConfig({
       // 导出模块格式
       formats: ['esm', 'umd', 'iife'], // 导出的模块类型
     },
+    outDir: './dist'
   },
 
   test: {

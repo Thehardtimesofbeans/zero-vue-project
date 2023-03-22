@@ -1,4 +1,4 @@
-# vue3-mobile-component
+# vue3-zero-ui
 
 ## 发布到 npm
 
