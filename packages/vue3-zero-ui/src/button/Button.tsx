@@ -1,4 +1,4 @@
-import { defineComponent, PropType, toRefs } from "vue";
+import { defineComponent, PropType } from "vue";
 
 export type ISize = "small" | "medium" | "large";
 export type IColor =

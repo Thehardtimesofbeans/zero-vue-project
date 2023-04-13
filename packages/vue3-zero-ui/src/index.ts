@@ -6,7 +6,6 @@ import VueMui from "./entry";
 // import SFCButton from './SFCButton.vue'
 // import JSXButton from './JSXButton'
 
-
 createApp({
   template: `
       <div>
@@ -16,8 +15,11 @@ createApp({
         <SButton color="yellow" icon="message" >黄色按钮</SButton>
         <SButton color="red" icon="delete">红色按钮</SButton>
         <SButton color="pink" icon="share">红色按钮</SButton>
+        <ZLoading></ZLoading>
+        <ZLoading></ZLoading>
+        
       </div>
-  `
+  `,
 })
   .use(VueMui)
   .mount("#app");
